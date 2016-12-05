@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
 import os
 import subprocess
 import sys
-import  time
+import time
 
 os.system("clear")
 print "Attack redes Wifi WPA2 Enterprise"
@@ -39,7 +38,6 @@ def ejecutarairmon():
     airmresult = subprocess.check_output(airm, shell=True)
     print "Airmon ya se Ejecutado \n"
     time.sleep(2)
-    os.system("clear")
 
 def ejecutarhostapd():
 
@@ -77,18 +75,22 @@ def main():
         opcion = raw_input(" ")
 
         if opcion == "1":
-        	instalacionhostapd()
+            instalacionhostapd()
+            os.system("clear")
 
-        if opcion == "2":
+        elif opcion == "2":
             ejecutarairmon()
+            os.system("clear")
 
         elif opcion == "3":
             ejecutarhostapd()
+            os.system("clear")
 
         elif opcion == "4":
             sacarpasswd()
 
         elif opcion == "5":
+            os.system("/etc/init.d/network-manager restart")
             sys.exit()
 
         else:
