@@ -4,8 +4,8 @@ hostapd 0.1
 
 Esta es un simple script para automatizar el uso de la herramienta hostapd-wpe. Si vas a usar el script debes tener privilegio de súper usuario.
 
-Esta escrito en python 2.7
-Probado en kai-linux
+Esta escrito en python 2.7. 
+Probado en kai-linux.
 
 Uso:
 
