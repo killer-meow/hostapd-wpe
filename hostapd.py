@@ -13,12 +13,13 @@ uso = """
 *                              Twitter : @Yonatan_correa              *
 *    *** Modo de uso ***                                              *
 *                                                                     *
-*    Primero configurar el archivo hostapd.conf coloca el nombre de   *
-*    la red que quieres suplantar                                     *
+*    Primero se instala el hostapd-wpe y luego configurar el archivo  * 
+*    /etc/hostapd-wpe/hostapd-wpe.conf, coloca el nombre de           *
+*    la red que quieres suplantar.                                    *
 *                                                                     *
-*    Si ya esta todo listo escribe:                                   *
+*    Escribe:                                                         *
 *                                                                     *
-*                            python hostapd.py run                    *
+*              python hostapd.py run                                  *
 ***********************************************************************
 """
 
@@ -30,6 +31,13 @@ def instalacionhostapd():
 
     instalresult = os.system("apt-get install hostapd-wpe")
     print instalresult
+    infoo = """
+    	Ya se instalo el hostapd-wpe ahora edita el archivo
+    	/etc/hostapd-wpe/hostapd-wpe.conf y en ssid, pon el nombre
+    	de la red wifi a atacar
+    """
+    print infoo
+    time.sleep(7)
 
 def ejecutarairmon():
 
@@ -90,7 +98,7 @@ def main():
             sacarpasswd()
 
         elif opcion == "5":
-            os.system("/etc/init.d/network-manager restart")
+            os.system("/etc/init.d/network-manager start")
             sys.exit()
 
         else:
