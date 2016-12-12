@@ -1,6 +1,4 @@
-# hostapd-wpe
-
-hostapd 0.1
+# hostapd-wpe 0.1
 
 Esta es un simple script para automatizar el uso de la herramienta hostapd-wpe. Si vas a usar el script debes tener privilegio de súper usuario.
 
