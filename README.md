@@ -11,4 +11,9 @@ Después de instalar el archivo /etc/hostapd-wpe/hostapd-wpe.conf, en la línea 
 
 Posibles mejoras más adelante, cualquier aporte o sugerencia es recibida.
 
-![Screenshot](https://github.com/risataimpt/hostapd-wpe/blob/master/1.JPG)
+------- Screenshots -------
+
+![Screenshot](https://github.com/risataimpt/hostapd-wpe/blob/master/img/1.JPG)
+
+
+![Screenshot](https://github.com/risataimpt/hostapd-wpe/blob/master/img/2.JPG)
