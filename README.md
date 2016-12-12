@@ -10,3 +10,5 @@ Uso:
 Después de instalar el archivo /etc/hostapd-wpe/hostapd-wpe.conf, en la línea que dice ssid=Nombre_red_wifi y después puedes ejecutar la aplicación sin ningún problema.
 
 Posibles mejoras más adelante, cualquier aporte o sugerencia es recibida.
+
+![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
